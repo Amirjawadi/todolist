@@ -1,7 +1,6 @@
 <?php
 
-include '/config.php';
-
+include 'config.php';
 try{
 $pdo = new PDO("mysql:host={$database_config->host};dbname=$database_config->db", $database_config->user, $database_config->pass);
 }

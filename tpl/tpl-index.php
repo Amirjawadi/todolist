@@ -7,7 +7,9 @@
 
 </head>
 <body>
+  
 <!-- partial:index.partial.html -->
+
 <div class="page">
   <div class="pageHeader">
     <div class="title">Dashboard</div>
@@ -23,11 +25,13 @@
       <div class="menu">
         <div class="title">Navigation</div>
         <ul>
-          <li> <i class="fa fa-home"></i>Home</li>
-          <li><i class="fa fa-signal"></i>Activity</li>
-          <li class="active"> <i class="fa fa-tasks"></i>Manage Tasks</li>
-          <li> <i class="fa fa-envelope"></i>Messages</li>
+          <li> <i class="fa fa-folder"></i>folder</li>
+          <li class="active"> <i class="fa fa-folder"></i>current folder</li>
         </ul>
+      </div>
+      <div>
+          <input type="text" id="newfolderinput" style="width: 50% ; margin-left:5%" placeholder="Add new folder"/>
+          <button id="newfolderbtn" class="btn">+</button>
       </div>
     </div>
     <div class="view">
